@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moodboard Carrossel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Título do carrossel -->
+    <h1 class="title">Moodboard</h1>
+
+    <!-- Carrossel -->
+    <div class="carousel-wrapper">
+      <!-- Botão para navegar para a esquerda -->
+      <button class="carousel-btn left" onclick="prevSlide()">&#8249;</button>
+      
+      <div class="carousel">
+        <!-- Contêiner dos quadrados -->
+        <div class="carousel-images">
+          <div class="carousel-image placeholder"></div>
+          <div class="carousel-image placeholder"></div>
+          <div class="carousel-image placeholder"></div>
+          <div class="carousel-image placeholder"></div>
+          <div class="carousel-image placeholder"></div>
+          <div class="carousel-image placeholder"></div>
+        </div>
+      </div>
+      
+      <!-- Botão para navegar para a direita -->
+      <button class="carousel-btn right" onclick="nextSlide()">&#8250;</button>
+    </div>
+
+    <!-- Linha de separação -->
+    <div class="separator"></div>
+
+    <!-- Título abaixo da linha -->
+    <h2 class="subtitle">Diário</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
